@@ -29,5 +29,28 @@ Based on these tables, the current manufacturing data meets the design specifica
 This could be because Lot 1 and Lot 2 have very consistent and streamlined manufacturing processes which is reflected by the small variance in suspension coil psi. Meanwhile, the manufacturing process in lot 3 could still be improved since there is a huge variation in the suspension coil psi of the cars produced there. It is also possible that more data needs to be collected from lot 3.
 </p>
 
+## T-Tests on Suspension Coils
 
 
+<img src= "Resources/img4.png">
+<p>
+With a p value of 0.06028, we fail to reject the null hypothesis that the overall population mean of suspension coils across all manufacturing lots is equal to 1500 pounds per square inch at a 5% level of significance. At this significance level, we cannot rule out this possibility since we have have insufficient evidence to support the claim that the overall population mean of suspension coils across all manufacturing lots is NOT equal to 1500 pounds per square inch. 
+</p>
+
+<img src= "Resources/img5.png">
+<p>
+With a p value of 1, we fail to reject the null hypothesis that the  population mean of suspension coils for cars from Manufacturing Lot 1 is equal to 1500 pounds per square inch at a 5% level of significance. At this significance level, we cannot rule out this possibility since we have have insufficient evidence to support the claim that the  population mean of suspension coils for cars from Manufacturing Lot 1 is NOT equal to 1500 pounds per square inch. 
+</p>
+
+<img src= "Resources/img6.png">
+<p>
+With a p value of 0.6072, we fail to reject the null hypothesis that the  population mean of suspension coils for cars from Manufacturing Lot 2 is equal to 1500 pounds per square inch at a 5% level of significance. At this significance level, we cannot rule out this possibility since we have have insufficient evidence to support the claim that the  population mean of suspension coils for cars from Manufacturing Lot 2 is NOT equal to 1500 pounds per square inch. 
+</p>
+
+<img src= "Resources/img7.png">
+<p>
+With a p value of 0.04168, we reject the null hypothesis that the  population mean of suspension coils for cars from Manufacturing Lot 3 is equal to 1500 pounds per square inch at a 5% level of significance. At this significance level, we can rule out this possibility since we have have suffiecient evidence to support the claim that the population mean of suspension coils for cars from Manufacturing Lot 3 is NOT equal to 1500 pounds per square inch.
+</p>
+
+
+## Study Design: MechaCar vs Competition
