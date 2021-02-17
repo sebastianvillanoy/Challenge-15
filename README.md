@@ -49,8 +49,25 @@ With a p value of 0.6072, we fail to reject the null hypothesis that the  popula
 
 <img src= "Resources/img7.png">
 <p>
-With a p value of 0.04168, we reject the null hypothesis that the  population mean of suspension coils for cars from Manufacturing Lot 3 is equal to 1500 pounds per square inch at a 5% level of significance. At this significance level, we can rule out this possibility since we have have suffiecient evidence to support the claim that the population mean of suspension coils for cars from Manufacturing Lot 3 is NOT equal to 1500 pounds per square inch.
+With a p value of 0.04168, we reject the null hypothesis that the  population mean of suspension coils for cars from Manufacturing Lot 3 is equal to 1500 pounds per square inch at a 5% level of significance. At this significance level, we can rule out this possibility since we have have sufficient evidence to support the claim that the population mean of suspension coils for cars from Manufacturing Lot 3 is NOT equal to 1500 pounds per square inch.
 </p>
 
-
 ## Study Design: MechaCar vs Competition
+
+<p>
+We can compare the fuel efficiency of MechaCars against its competitors using miles per galllon or mpg as a metric. If the average distance in miles that Mechacars can travel per gallon of gasoline is statistcally different from that of similar vehicles produced by other manufacturers, then we can confidently claim that at a particular level of significance, Mechacars do not have the same fuel efficiency as other vehicles. 
+
+The statistical test that will be used is a two tailed t-test that compares the difference in the population means of miles per gallon (mpg) of MechaCars and similar vehicles from other manufacturers. This t-test will be done on two independent and unpaired samples. 
+
+Although a one tailed test will provide better sense of comaprison, we will use the more conservative two tailed test instead since it puts a higher burden of proof on the data. Two tailed tests have fewer statistically significant results since they have smaller rejection regions relative to one tailed test at the same level of significance. 
+
+<br>
+Given: <br>
+µ1 = population mean of mpg of Mechacars<br>
+µ2 = population mean of mpg of similar vehicles from other manufacturers <br>
+<br>
+
+The null hypothesis of this test would say that there is no difference in the means of mpg of MechaCars and similar vehicles from other manufacturers (µ1 - µ2 = 0) while the alternative hypothesis would state that there is a non-zero difference in the population means (µ1-µ2 ≠ 0). 
+
+The data required for this test would be 2 randomly selected samples of mpg measurements, a data input that is numerical and continous. Random selection gives every sample point an equal chance of being selected and eliminates any bias and non-sampling error. One sample will come from the population of MechaCars while the other would come from the population of similar vehicles from a different manufacturer. The sample size of each sample should be relatively large so that the sampling distribution of the sample mean will approach a normal distribution. This normality requirement must be met for the test statistic used in our hypothesis testing to be valid. 
+</p>
